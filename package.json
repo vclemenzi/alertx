@@ -1,0 +1,38 @@
+{
+  "name": "alertx",
+  "version": "1.0.0",
+  "description": "Alert with an x",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vclemenzi/alertx.git"
+  },
+  "keywords": [
+    "alert",
+    "x",
+    "css",
+    "js",
+    "javascript",
+    "web",
+    "vanilla",
+    "browser",
+    "cool"
+  ],
+  "author": "Valerio Clemenzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vclemenzi/alertx/issues"
+  },
+  "homepage": "https://github.com/vclemenzi/alertx#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
