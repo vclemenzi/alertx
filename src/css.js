@@ -16,9 +16,17 @@ module.exports = {
     zIndex: 9999,
     backgroundColor: "#fff",
     padding: "2rem",
-    fontSize: "2.5rem",
     borderRadius: "0.5rem",
     textAlign: "center",
+    maxWidth: "70%",
+    wordWrap: "break-word",
+  },
+  title: {
+    fontSize: "2.5rem",
+    mariginBottom: "0.5rem",
+  },
+  description: {
+    fontSize: "1.5rem",
   },
   exit: {
     width: "100%",
@@ -28,5 +36,9 @@ module.exports = {
     border: "none",
     cursor: "pointer",
     fontSize: "1rem",
+  },
+  exitHover: {
+    backgroundColor: "#7cd1f9",
+    color: "#fff",
   },
 };
