@@ -7,13 +7,14 @@ export default {
   output: {
     file: 'dist/alertx.js',
     format: 'umd',
-    name: 'Alertx'
+    name: 'alertx'
   },
   plugins: [
     resolve(),
     commonjs(),
     babel({
-      presets: ['@babel/preset-env']
+      presets: ['@babel/preset-env'],
+      exclude: 'node_modules/**'
     })
   ]
 };
